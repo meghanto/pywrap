@@ -6,5 +6,6 @@ setup(
     description='My first Python library',
     author='meghanto',
     license='MIT',
-    install_requires=['cppimport','pybind11']
+    install_requires=['cppimport','pybind11'],
+    py_modules = ['pywrap'],
 )
